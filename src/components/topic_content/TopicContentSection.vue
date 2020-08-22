@@ -13,7 +13,7 @@ import TopicVotes from "../topic_content/TopicVotes";
 
 export default {
   name: "TopicContentSection",
-  components: { TopicVotes }
+  components: { TopicVotes },
 };
 </script>
 
@@ -24,7 +24,7 @@ export default {
     text-align: center;
     font-size: 85px;
     font-weight: bold;
-    color: #41456475;
+    color: $purple-lt;
     margin-bottom: 2rem;
   }
   &--votes {

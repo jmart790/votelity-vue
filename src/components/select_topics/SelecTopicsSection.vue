@@ -24,15 +24,15 @@ export default {
   name: "SelectTopicsSection",
   data() {
     return {
-      issuesType: true
+      issuesType: true,
     };
-  }
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 #select-topics-section {
-  background-color: rgb(240, 240, 240);
+  background-color: $off-white;
   .topics {
     padding: 2rem;
     display: flex;
@@ -44,8 +44,8 @@ export default {
       height: 2px;
       width: 200px;
       margin: 0.5rem;
-      background: rgb(9, 40, 90);
-      background: linear-gradient(90deg, rgba(9, 40, 90, 1) 0%, #1fbee6);
+      background: $blue;
+      background: linear-gradient(90deg, $blue 0%, $aqua);
     }
     &__issues {
       margin-bottom: 2rem;
@@ -53,7 +53,7 @@ export default {
         -webkit-appearance: none;
       }
       label {
-        color: rgba(9, 40, 90, 1);
+        color: $blue;
         transition: 0.3s ease-out;
         cursor: pointer;
         margin: 1rem;
@@ -91,7 +91,7 @@ export default {
         left: -10%;
         bottom: -0.5rem;
         width: 120%;
-        background: linear-gradient(90deg, rgba(9, 40, 90, 1) 0%, #1fbee6);
+        background: linear-gradient(90deg, $blue 0%, $aqua);
       }
     }
   }

@@ -13,7 +13,7 @@
 import CandidateSearch from "./CandidateSearch";
 export default {
   name: "SelectCandidates",
-  components: { CandidateSearch }
+  components: { CandidateSearch },
 };
 </script>
 
@@ -30,20 +30,20 @@ export default {
     justify-items: center;
     grid-template-rows: 1fr min-content 1fr;
     grid-gap: 1rem;
-    color: rgba(9, 40, 90, 1);
+    color: $blue;
     padding: 3rem 0;
 
     .top-line,
     .bottom-line {
       width: 2px;
       height: 100%;
-      background: rgb(9, 40, 90);
+      background: $blue;
     }
     .top-line {
-      background: linear-gradient(0deg, rgba(9, 40, 90, 1) 0%, #1fbee6);
+      background: linear-gradient(0deg, $blue 0%, $aqua);
     }
     .bottom-line {
-      background: linear-gradient(180deg, rgba(9, 40, 90, 1) 0%, #1fbee6);
+      background: linear-gradient(180deg, $blue 0%, $aqua);
     }
   }
 }

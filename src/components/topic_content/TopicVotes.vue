@@ -18,6 +18,6 @@ export default {
 
 <style lang="scss" scoped>
 .topic-votes {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px $shadow;
 }
 </style>

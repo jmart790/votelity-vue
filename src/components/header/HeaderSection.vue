@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: "HeaderSection"
+  name: "HeaderSection",
 };
 </script>
 
@@ -30,8 +30,8 @@ export default {
 #header-section {
   height: 120vh;
   max-height: 900px;
-  background-color: #082a5b;
-  color: #fff;
+  background-color: $blue;
+  color: $white;
   position: relative;
   overflow: hidden;
   .header {
@@ -51,7 +51,7 @@ export default {
           bottom: 5px;
           width: 87%;
           height: 15px;
-          background-color: red;
+          background-color: $red;
         }
       }
       &--lity {

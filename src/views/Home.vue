@@ -3,7 +3,7 @@
     <HeaderSection />
     <SelectCandidatesSection />
     <SelectTopicsSection />
-    <TopicContent />
+    <TopicContentSection />
     <FooterSection />
   </div>
 </template>
@@ -12,7 +12,7 @@
 import HeaderSection from "../components/header/HeaderSection";
 import SelectCandidatesSection from "../components/select_candidates/SelectCandidatesSection";
 import SelectTopicsSection from "../components/select_topics/SelecTopicsSection";
-import TopicContent from "../components/topic_content/TopicContentSection";
+import TopicContentSection from "../components/topic_content/TopicContentSection";
 import FooterSection from "../components/footer/FooterSection";
 
 export default {
@@ -21,8 +21,8 @@ export default {
     HeaderSection,
     SelectCandidatesSection,
     SelectTopicsSection,
-    TopicContent,
-    FooterSection
-  }
+    TopicContentSection,
+    FooterSection,
+  },
 };
 </script>
