@@ -1,5 +1,5 @@
 # votelity-vue
-New project
+New project blah
 ## Project setup
 ```
 npm install
